@@ -12,7 +12,8 @@ jobs:
   update-social:
     runs-on: ubuntu-latest
     steps:
-      - uses: AllenCheng5186/AllenCheng5186
+      - uses: AllenCheng5186/social-readme@master
         with:
           blog_rss_link: https://studywithallen.com/feed/
           blog_limit: 5 
+          repository: AllenCheng5186/AllenCheng5186
