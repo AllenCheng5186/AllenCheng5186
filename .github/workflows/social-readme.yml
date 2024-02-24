@@ -6,13 +6,13 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   update-social:
     runs-on: ubuntu-latest
     steps:
-      - uses: AllenCheng5186/social-readme@master
+      - uses: AllenCheng5186/social-readme@main
         with:
           blog_rss_link: https://studywithallen.com/feed/
           blog_limit: 5 
